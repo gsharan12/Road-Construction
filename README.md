@@ -35,7 +35,7 @@ for each road, amount of resources allotted for each road, and available resourc
 16) If sequence is not generated then an error message is displayed
 
 
-### 8. Conclusion
+### Conclusion
 
 The proposed model is highly recommended as it successfully implements all the ideas that
 were initially put forth. The main purpose was to find out order in which a group of roads are
