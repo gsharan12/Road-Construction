@@ -2,7 +2,7 @@
  OS Project
 
 ### PROBLEM STATEMENT
- The project titled ROAD CONSTRUCTION aims to address one of the major issues that the Indian road construction department is facing. It uses Highway Planning and Obstruction Prevention. These days we notice that a large number of roads are not in proper condition and many of them require restoration. Many of which are in high usage and require immidiate repair. Our project aims to help athorities with providing them the most profitable path for road contruction for a given map and the sequence in which these roads can be addressed so that it would be convenient for both the authorities as well as the general public.Our project collects various forms regarding the map for the road that needs to be constructed, with this data we find the most shortest and profitable path possible . Then we collect data for utility and traffic for all the roads ,then we normalize the data collected and generate a appropriate sequence in which the road construction should be addressed. We have also included a deadline section so that the roads that take more then the allocated time are highlighted and if necessary removed. Also, a check for hindrance detection is added which can be used when we have limited number of resources and a proper allocation of these resources is required. For this we take inputs for resources which can refer to asphalt, machinery, mortar etc. Then we require maximum resources needed for each road, amount of resources allotted for each road, and available resources, based on which a safe sequence is generated that prevents any unwanted stoppage of work.
+ The project titled ROAD CONSTRUCTION aims to address one of the major issues that the Indian road construction department is facing. It uses Highway Planning and Obstruction Prevention. These days we notice that a large number of roads are not in proper condition and many of them require restoration. Many of which are in high usage and require immidiate repair. Our project aims to help authorities with providing them the most profitable path for road contruction for a given map and the sequence in which these roads can be addressed so that it would be convenient for both the authorities as well as the general public. Our project collects various forms regarding the map for the road that needs to be constructed, with this data we find the most shortest and profitable path possible. Then we collect data for utility and traffic for all the roads ,then we normalize the data collected and generate an appropriate sequence in which the road construction should be addressed. We have also included a deadline section so that the roads that take more then the allocated time are highlighted and if necessary removed. Also, a check for hindrance detection is added which can be used when we have limited number of resources and a proper allocation of these resources is required. For this we take inputs for resources which can refer to asphalt, machinery, mortar etc. Then we require maximum resources needed for each road, amount of resources allotted for each road, and available resources, based on which a safe sequence is generated that prevents any unwanted stoppage of work.
 
  ### ALGORITHMS USED
 1) DIJAKSTRA ALGORITHM FOR FINDING SHORTEST PATH FOR ROADS
@@ -42,10 +42,10 @@ were initially put forth. The main purpose was to find out order in which a grou
 mended or constructed so that within short time and correct resources, the roads are dealt
 with, without any ambiguity, prioritizing the important ones over the others. So in this way
 we get an ideal sequence for a large set of construction processes ongoing in the entire
-country which would not have been possible to deal with manually .The designed model is
+country which would not have been possible to deal with manually. The designed model is
 also able to find the most profitable route for the road construction whose map was given to
 us. By applying dijkstra algorithm to this map we were able to find the profitable route for
-construction .The model is also able to checks the safe sequence based on the data available
+construction. The model is also able to check the safe sequence based on the data available
 to the authorities, whereby it says if the certain available resources is enough for the safe
 mending of all the given roads.
 
