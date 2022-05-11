@@ -5,8 +5,8 @@
  The project titled ROAD CONSTRUCTION aims to address one of the major issues that the Indian road construction department is facing. It uses Highway Planning and Obstruction Prevention. These days we notice that a large number of roads are not in proper condition and many of them require restoration. Many of which are in high usage and require immidiate repair. Our project aims to help authorities with providing them the most profitable path for road contruction for a given map and the sequence in which these roads can be addressed so that it would be convenient for both the authorities as well as the general public. Our project collects various forms regarding the map for the road that needs to be constructed, with this data we find the most shortest and profitable path possible. Then we collect data for utility and traffic for all the roads ,then we normalize the data collected and generate an appropriate sequence in which the road construction should be addressed. We have also included a deadline section so that the roads that take more then the allocated time are highlighted and if necessary removed. Also, a check for hindrance detection is added which can be used when we have limited number of resources and a proper allocation of these resources is required. For this we take inputs for resources which can refer to asphalt, machinery, mortar etc. Then we require maximum resources needed for each road, amount of resources allotted for each road, and available resources, based on which a safe sequence is generated that prevents any unwanted stoppage of work.
 
  ### ALGORITHMS USED
-1) DIJAKSTRA ALGORITHM FOR FINDING SHORTEST PATH FOR ROADS
-2) DIJAKSTRA ALGORITHM FOR THE MAP(GRAPH)
+1) DIJKSTRA ALGORITHM FOR FINDING SHORTEST PATH FOR ROADS
+2) DIJKSTRA ALGORITHM FOR THE MAP(GRAPH)
 3) PRIORITY SCHEDULING WITHOUT PREEMPTION
 4) BANKERS ALGORITHM TO GENERATE A SAFE SEQUENCE
 
